@@ -1,0 +1,29 @@
+﻿  {
+    "configID":12345,
+    "time":"now",
+    "PLC": {
+      "type": 1,
+      "IPAddress": "192.168.0.1",
+      "Port": "102",
+      "AdditionalSettings": "no"
+    },
+    "Variables": [
+      {
+        "Name": "NS001-ERUN",
+        "SymbolicAddress": "0",
+        "DBNr": 1,
+        "Offset": 1,
+        "BitNr": 1,
+        "Value": "1"
+      },
+      {
+        "Name": "NS001-TP",
+        "SymbolicAddress": "0",
+        "DBNr": 1,
+        "Offset": 2,
+        "BitNr": 1,
+        "Value": "135.5"
+      }
+    ],
+    "interval": 5000
+  }
